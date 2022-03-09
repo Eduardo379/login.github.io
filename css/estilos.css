@@ -13,6 +13,7 @@ body{
 	border-radius:5px;
 }
 
+/*propiedades generales input*/
 .container input{
 	width:90%;
 	margin-bottom:40px;
@@ -25,6 +26,18 @@ body{
 	border-bottom:2px solid #898989;
 	outline:none;
 } 
+
+.container input[type="submit"]{
+	background:#61B0F6;
+	border:none;
+	border-radius:5px;
+}
+
+.container input[type="submit"]:hover{
+	background:#73BBF9;
+	transition:all .3s;
+	cursor:pointer;
+}
 
 .logo{
 	display:block;
