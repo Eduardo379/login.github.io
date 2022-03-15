@@ -3,7 +3,8 @@
 <head>
 	<title>Registrar usuario</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilosform.css">
 </head>
 <body class="animate__animated animate__fadeIn">
 	<div class="container">
@@ -37,14 +38,4 @@
 
 	?>
 </body>
-
-    <!-- <form method="post">
-    	<h1>¡Suscribete!</h1>
-    	<input type="text" name="name" placeholder="Nombre completo">
-    	<input type="email" name="email" placeholder="Email">
-    	<input type="submit" name="register">
-    </form>
-        <?php 
-        // include("registrar.php");
-        ?> -->
 </html>
